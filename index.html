@@ -174,3 +174,70 @@
         <!-- Розділ: списки -->!-- Хлопці, кожен вставляє свій шматок коду сюди -->
 </body>
 </html>
+                <label for="password">Пароль:
+                    <input type="password" id="password" name="password" required>
+                </label>
+ 
+                <label for="birth">Дата народження:
+                    <input type="date" id="birth" name="birthdate">
+                </label>
+ 
+                <label for="course">Курс (число):
+                    <input type="number" id="course" name="course" min="1" max="6" value="1">
+                </label>
+ 
+                <p>Захоплення (можна обрати кілька):</p>
+                <label><input type="checkbox" name="hobby" value="music"> Музика</label>
+                <label><input type="checkbox" name="hobby" value="sport"> Спорт</label>
+                <label><input type="checkbox" name="hobby" value="games"> Ігри</label>
+ 
+                <p>Форма навчання (один варіант):</p>
+                <label><input type="radio" name="study" value="full-time" checked> Денна</label>
+                <label><input type="radio" name="study" value="part-time"> Заочна</label>
+ 
+                <label for="langs">Мови програмування (Ctrl + клік для вибору кількох):</label>
+                <select id="langs" name="languages" multiple size="4">
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="python">Python</option>
+                    <option value="js">JavaScript</option>
+                </select>
+ 
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" rows="4" cols="40" placeholder="Ваше повідомлення..."></textarea>
+ 
+                <p><button type="submit">Надіслати</button></p>
+            </form>
+        </section>
+ 
+        <!-- Розділ: мультимедіа -->
+        <section id="media">
+            <h2>Мультимедіа</h2>
+ 
+            <h3>Аудіо</h3>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує елемент audio.
+            </audio>
+ 
+            <h3>Відео</h3>
+            <video controls width="480">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Ваш браузер не підтримує елемент video.
+            </video>
+        </section>
+ 
+    </main>
+ 
+    <!-- Нижній колонтитул з контактами -->
+    <footer id="contacts">
+        <h2>Контакти</h2>
+        <p>Лозенко Захар, Большаков Михайло, Максименко Станіслав — група 2АКІТР-26б, ВНТУ<br>
+           Електронна пошта: <a href="mailto:student@example.com">student@example.com</a><br>
+           Адреса: м. Вінниця, Хмельницьке шосе, 95</p>
+        <p>&copy; 2026 Бригада 2АКІТР-26б</p>
+    </footer>
+ 
+</body>
+</html>
